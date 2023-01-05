@@ -1,12 +1,12 @@
 import { createChannel } from '../node_modules/decentraland-builder-scripts/channel'
 import { createInventory } from '../node_modules/decentraland-builder-scripts/inventory'
-import Script1 from "../c1e126e7-374e-4fe3-aaae-b4211c321cf3/src/item"
-import Script2 from "../58dc566a-2add-4326-b61c-0fdf46903195/src/item"
-import Script3 from "../a747f104-5434-42a8-a543-8739c24cf253/src/item"
-import Script4 from "../b79a150e-5914-4fdf-a6b4-c7ff0c6833dd/src/item"
-import Script5 from "../2e1c4446-c99a-4698-9e13-819d232ca849/src/item"
-import Script6 from "../0b8f3b57-a7f3-48aa-a88a-41098f264566/src/item"
-import Script7 from "../b88efbbf-2a9a-47b4-86e1-e38ecc2b433b/src/item"
+import Script1 from "../builder/c1e126e7-374e-4fe3-aaae-b4211c321cf3/src/item"
+import Script2 from "../builder/58dc566a-2add-4326-b61c-0fdf46903195/src/item"
+import Script3 from "../builder/a747f104-5434-42a8-a543-8739c24cf253/src/item"
+import Script4 from "../builder/b79a150e-5914-4fdf-a6b4-c7ff0c6833dd/src/item"
+import Script5 from "../builder/2e1c4446-c99a-4698-9e13-819d232ca849/src/item"
+import Script6 from "../builder/0b8f3b57-a7f3-48aa-a88a-41098f264566/src/item"
+import Script7 from "../builder/b88efbbf-2a9a-47b4-86e1-e38ecc2b433b/src/item"
 import { Zombie_bot, Alice_bot }  from './npc'
 import createQRCode from './qrcode'
 import newBird from './bird'
